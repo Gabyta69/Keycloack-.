@@ -4,12 +4,12 @@
 
 export const environment = {
   production: false,
-  HOST: 'http://localhost:8585',
+  HOST: 'http://localhost:8080',
   KEYCLOACK: 'http://localhost:9595',
-  TOKEN_AUTH_USERNAME: 'jmartinez',
-  TOKEN_AUTH_PASSWORD: '02wen20ma',
+  TOKEN_AUTH_USERNAME: 'maria@gmail.com',
+  TOKEN_AUTH_PASSWORD: 'hola',
   REFRESH_TOKEN: 'refresh_token',
-  CLIENT_ID: 'pro-office-backend',
+  CLIENT_ID: 'parcialapp-backend',
   TOKEN_NAME: 'access_token',
 };
 

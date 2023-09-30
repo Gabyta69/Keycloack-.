@@ -16,7 +16,7 @@ export class LoginService {
   ) { }
 
   login(username: string, password: string){
-    const body = `client_id=**parcialapp-backend**&grant_type=password&username=${username}&password=${password}`;
+    const body = `client_id=parcialapp-backend&grant_type=password&username=${username}&password=${password}`;
 
     return this.http.post<any>(this.url, body, {
       headers: new HttpHeaders().set('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8')
