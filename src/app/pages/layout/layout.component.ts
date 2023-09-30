@@ -24,7 +24,6 @@ export class LayoutComponent implements OnInit {
 
     const helper = new JwtHelperService();
     const decodedToken = helper.decodeToken(localStorage.getItem(environment.TOKEN_NAME));
-    this.username = decodedToken.name;
     let token = sessionStorage.getItem(environment.TOKEN_NAME);
   }
 

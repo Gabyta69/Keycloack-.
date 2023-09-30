@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   HOST: 'http://localhost:8080',
   KEYCLOACK: 'http://localhost:9595',
-  TOKEN_AUTH_USERNAME: 'maria@gmail.com',
+  TOKEN_AUTH_USERNAME: 'g@gmai.com',
   TOKEN_AUTH_PASSWORD: 'hola',
   REFRESH_TOKEN: 'refresh_token',
   CLIENT_ID: 'parcialapp-backend',
